@@ -34,16 +34,16 @@ This Python script monitors specified URLs for any changes in their content and 
    - Click on the "Create" button.
    - Google will generate an app password. **Copy that password.**
 
-5. **Create `env.py` File:**
+5. **Update `env.py` File:**
 
-   - In the root of your project, create a new file named `env.py`.
+   - In the root of your project, there will be file named `env.py`.
    - Add the following code, replacing `"paste the password here that you copied"` with the actual app password:
 
      ```python
      # env.py
 
      # App password generated for Gmail
-     password = "paste the password here that you copied"
+     password = ""
      ```
 
 6. **Configure URLs to Monitor:**
@@ -58,9 +58,10 @@ This Python script monitors specified URLs for any changes in their content and 
 
 ## Note:
 
+- Paste the app password inside the quotes in the `password` variable in the `env.py` file.
 - Ensure the `env.py` file containing the app password is secure and not shared publicly.
 - The script is designed to run continuously, checking for changes every hour (`time.sleep(3600)`).
 
 Feel free to customize the script based on your specific requirements and use case.
 
-Make sure to replace `[add your email address here]` and `[add your other email address here]` with your actual email addresses.
+Make sure to replace `[add your email address here]` and `[add your other email address here]` with your actual email addresses in `main.py` file.
