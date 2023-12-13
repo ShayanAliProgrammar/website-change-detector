@@ -25,9 +25,9 @@ def send_notification(url):
                 with open(file_name, 'r') as file_content:
                     if file_content.read() != soup.__str__():
                         print('Sending Email...')
-                        email_sender = "janishayan10@gmail.com"
+                        email_sender = "[add your email address here]"
                         email_password = password
-                        email_receiver = "shayanjaniprogrammar@gmail.com"
+                        email_receiver = "[add your other email address here]"
 
                         subject = "Website Change Detection"
                         body = f"""<h1>Hi, there</h1> <p>There is a change for this website page: {url}</p>"""
