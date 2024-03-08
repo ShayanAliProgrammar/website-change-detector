@@ -2,14 +2,6 @@
 
 This Python script monitors specified URLs for any changes in their content and sends email notifications when a change is detected. The script leverages BeautifulSoup for web scraping and Requests for HTTP requests. The monitored URLs are stored in the `urls_to_monitor` list.
 
-## Features:
-
-- **Change Detection:** The script efficiently compares the current content of a website with the previously stored version and triggers an email notification if any changes are detected.
-
-- **Email Notification:** Notifications are dispatched via email using the SMTP protocol, with Gmail configured as the email service provider. The email content includes a detailed message indicating the change and the URL of the modified website.
-
-- **File Storage:** The script intelligently stores the HTML content of the monitored websites in separate files, utilizing a naming convention based on the URL to prevent conflicts.
-
 ## How to Use:
 
 1. **Clone the repository.**
