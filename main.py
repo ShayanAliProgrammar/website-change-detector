@@ -7,7 +7,7 @@ import smtplib
 import time
 
 # List of URLs to monitor
-urls_to_monitor = ["http://localhost:8000"]
+urls_to_monitor = ["https://google.com"]
 
 def send_notification(url):
     try:
