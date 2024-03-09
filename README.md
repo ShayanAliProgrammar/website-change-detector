@@ -27,7 +27,7 @@ This Python script sends email notifications whenever it detects a change to the
    - There will be a file called `env.py` in the root of your project.
    - Replace "insert the password here that you copied" with the app password and add this code:
 
-    ```python
+     ```python
      # env.py
 
      # App password generated for Gmail
